@@ -21,11 +21,9 @@
   },
   "homepage": "https://github.com/bulhakovolexii/article-preview-component#readme",
   "devDependencies": {
-    "concurrently": "^9.1.2",
-    "typescript": "^5.8.3"
-  },
-  "dependencies": {
     "@tailwindcss/cli": "^4.1.3",
-    "tailwindcss": "^4.1.3"
+    "concurrently": "^9.1.2",
+    "tailwindcss": "^4.1.3",
+    "typescript": "^5.8.3"
   }
 }
