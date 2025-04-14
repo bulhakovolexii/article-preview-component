@@ -16,12 +16,12 @@
 
     <link rel="stylesheet" href="./dist/css/output.css" />
   </head>
-  <body>
+  <body class="flex flex-col min-h-screen">
     <div
       class="fixed top-0 right-0 bottom-0 left-0 -z-10 bg-grayish-blue-50"
     ></div>
     <!-- background -->
-    <main class="px-6 py-18 flex justify-center items-center min-h-screen">
+    <main class="px-6 py-18 flex justify-center items-center flex-1">
       <section
         class="shadow-2xl max-w-82 rounded-xl flex flex-col bg-white lg:flex-row lg:max-w-182"
       >
@@ -111,12 +111,21 @@
     <!--  
     Share -->
 
-    <!-- <div class="attribution">
+    <footer class="text-center">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-grayish-blue-500 hover:underline"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+      >. Coded by
+      <a
+        href="https://github.com/bulhakovolexii/"
+        target="_blank"
+        class="text-grayish-blue-500 hover:underline"
+        >Olexii Bulhakov</a
+      >.
+    </footer>
     <script src="./dist/js/main.js"></script>
   </body>
 </html>
