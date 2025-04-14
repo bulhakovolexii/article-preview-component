@@ -184,6 +184,9 @@
   }
 }
 @layer utilities {
+  .visible {
+    visibility: visible;
+  }
   .absolute {
     position: absolute;
   }
@@ -448,6 +451,11 @@
   .data-\[open\=true\]\:h-18 {
     &[data-open="true"] {
       height: calc(var(--spacing) * 18);
+    }
+  }
+  .data-\[open\=true\]\:h-full {
+    &[data-open="true"] {
+      height: 100%;
     }
   }
   .data-\[open\=true\]\:bg-grayish-blue-500 {
