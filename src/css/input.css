@@ -1,1 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-grayish-blue-50: hsl(210, 46%, 95%);
+  --color-grayish-blue-300: hsl(212, 23%, 69%);
+  --color-grayish-blue-500: hsl(214, 17%, 51%);
+  --color-grayish-blue-700: hsl(217, 19%, 35%);
+}
+
+@layer base {
+  body {
+    font-family: "Manrope", sans-serif;
+    color: var(--color-grayish-blue-700);
+  }
+}
+
+@layer components {
+  .link {
+    @apply h-5 w-5 flex items-center hover:text-grayish-blue-300 outline-offset-4 focus-visible:outline-grayish-blue-700;
+  }
+}

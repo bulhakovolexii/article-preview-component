@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ts:watch": "tsc --watch",
     "css:watch": "tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch",
-    "dev": "concurrently \"npm run ts:watch\" \"npm run css:watch\""
+    "dev": "concurrently \"npm run ts:watch\" \"npm run css:watch\" \"hrs\""
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.3",
     "concurrently": "^9.1.2",
+    "simple-hot-reload-server": "^1.2.0",
     "tailwindcss": "^4.1.3",
     "typescript": "^5.8.3"
   }
